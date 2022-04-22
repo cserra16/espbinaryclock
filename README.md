@@ -4,13 +4,13 @@ Se trata de una pequeño proyecto para ESP32 en el que se obtiene la hora desde 
 
 Los LEDs de color rojo se corresponden con la hora. Los LEDs de color verde se corresponden con los minutos.
 
-![alt text](https://github.com/cserra16/espbinaryclock/blob/main/espBinaryClock.png?raw=true)
+![alt text](https://github.com/cserra16/espbinaryclock/images/blob/main/espBinaryClock.png?raw=true)
 
 Una vez iniciado el simulador es posible ver el proceso del código por el monitor serie.
 
 Se indica la conexión a la red Wifi, la conexión con el NTP y la hora en formato decimal (24h) y binario.
 
-
+![alt text](https://github.com/cserra16/espbinaryclock/images/blob/main/espBinaryClock-running.png?raw=true)
 
 El diseño se ha realizado en wokwi.com
 
