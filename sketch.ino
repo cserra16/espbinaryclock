@@ -20,7 +20,7 @@ void setup() {
     ], OUTPUT);
   }
 
-  Serial.println("Contectando a Wifi"); //Conexión a Wifi y NTP
+  Serial.println("Contectando a Wifi"); //Conexión a Wifi
   WiFi.begin("Wokwi-GUEST", "", 6);
   while (WiFi.status() != WL_CONNECTED) {
     delay(250);
@@ -52,9 +52,9 @@ void hBin(int hora,int minutos){
   hora = hora + 128;
   minutos = minutos + 128;
 
-  char str_hora [32]; 
-  char str_minutos [32]; 
-  char str_hm [32]; 
+  char str_hora [32]; //revisar si es necesario los 32 
+  char str_minutos [32]; //revisar si es necesario los 32 
+  char str_hm [32]; //revisar si es necesario los 32 
 
   itoa(hora, str_hora, 2); //Convierte a Binario
   itoa(minutos, str_minutos, 2); //Convierte a Binario

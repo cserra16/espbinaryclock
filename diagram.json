@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 1,
   "author": "Carlos Serrano",
   "editor": "wokwi",
   "parts": [
@@ -9,77 +9,77 @@
       "id": "led1",
       "top": 31.83,
       "left": -178.53,
-      "attrs": { "color": "green" }
+      "attrs": { "color": "green", "label": "8" }
     },
     {
       "type": "wokwi-led",
       "id": "led2",
       "top": 31.07,
       "left": -221.88,
-      "attrs": { "color": "green" }
+      "attrs": { "color": "green", "label": "16" }
     },
     {
       "type": "wokwi-led",
       "id": "led3",
       "top": 31.4,
       "left": -265,
-      "attrs": { "color": "green" }
+      "attrs": { "color": "green", "label": "32" }
     },
     {
       "type": "wokwi-led",
       "id": "led4",
       "top": 32.1,
       "left": -90.45,
-      "attrs": { "color": "green" }
+      "attrs": { "color": "green", "label": "2" }
     },
     {
       "type": "wokwi-led",
       "id": "led5",
       "top": 32.44,
       "left": -134.14,
-      "attrs": { "color": "green" }
+      "attrs": { "color": "green", "label": "4" }
     },
     {
       "type": "wokwi-led",
       "id": "led6",
       "top": 32.76,
       "left": -46.54,
-      "attrs": { "color": "green" }
+      "attrs": { "color": "green", "label": "1" }
     },
     {
       "type": "wokwi-led",
       "id": "led7",
       "top": -25.82,
       "left": -245.68,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "red", "label": "16" }
     },
     {
       "type": "wokwi-led",
       "id": "led8",
       "top": -25.82,
       "left": -202.43,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "red", "label": "8" }
     },
     {
       "type": "wokwi-led",
       "id": "led9",
       "top": -25.05,
       "left": -159.94,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "red", "label": "4" }
     },
     {
       "type": "wokwi-led",
       "id": "led10",
       "top": -24.27,
       "left": -116.7,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "red", "label": "2" }
     },
     {
       "type": "wokwi-led",
       "id": "led11",
       "top": -23.5,
       "left": -73.45,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "red", "label": "1" }
     },
     {
       "type": "wokwi-resistor",
